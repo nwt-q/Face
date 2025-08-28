@@ -1,0 +1,27 @@
+{
+  "equipments": [
+    {
+      "id": 1,
+      "name": "NVIDIA DGX工作站",
+      "labId": 1,
+      "specification": "A100 80GB GPU",
+      "status": "正常",
+      "purchaseDate": "2023-12-01",
+      "maintenanceRecords": [
+        {
+          "date": "2024-02-15",
+          "description": "更换散热风扇"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "树莓派4B",
+      "labId": 2,
+      "specification": "4GB RAM版本",
+      "status": "维护中",
+      "purchaseDate": "2024-01-10",
+      "maintenanceRecords": []
+    }
+  ]
+}

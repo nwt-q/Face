@@ -1,0 +1,5 @@
+dlib
+opencv_python
+onnxruntime
+fastapi
+numpy

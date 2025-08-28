@@ -1,0 +1,22 @@
+{
+  "labs": [
+    {
+      "id": 1,
+      "name": "人工智能实验室",
+      "description": "配备GPU服务器和深度学习工作站",
+      "capacity": 30,
+      "status": "available",
+      "equipment": "NVIDIA DGX工作站 x10",
+      "createTime": "2024-03-01"
+    },
+    {
+      "id": 2,
+      "name": "物联网实验室",
+      "description": "嵌入式开发实验环境",
+      "capacity": 20,
+      "status": "maintenance",
+      "equipment": "树莓派套件 x50",
+      "createTime": "2024-02-15"
+    }
+  ]
+}

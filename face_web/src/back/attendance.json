@@ -1,0 +1,25 @@
+{
+  "attendances": [
+    {
+      "id": 1,
+      "userName": "张三",
+      "labName": "人工智能实验室",
+      "date": "2024-03-20",
+      "timeSlot": "14:00-16:00",
+      "status": "正常",
+      "checkInTime": "14:05",
+      "checkOutTime": "15:55"
+    },
+    {
+      "id": 2,
+      "userName": "李四",
+      "labName": "物联网实验室",
+      "date": "2024-03-21",
+      "timeSlot": "09:00-11:00",
+      "status": "迟到",
+      "checkInTime": "09:15",
+      "checkOutTime": "10:50"
+    }
+    
+  ]
+}

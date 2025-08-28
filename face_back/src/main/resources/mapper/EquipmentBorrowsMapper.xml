@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.evlast.face_back.mapper.EquipmentBorrowsMapper">
+
+    <resultMap id="BaseResultMap" type="org.evlast.face_back.domain.EquipmentBorrows">
+            <id property="id" column="id" jdbcType="INTEGER"/>
+            <result property="bookingId" column="booking_id" jdbcType="INTEGER"/>
+            <result property="equipmentId" column="equipment_id" jdbcType="INTEGER"/>
+            <result property="borrowType" column="borrow_type" jdbcType="OTHER"/>
+            <result property="operatorId" column="operator_id" jdbcType="INTEGER"/>
+            <result property="notes" column="notes" jdbcType="VARCHAR"/>
+            <result property="createdAt" column="created_at" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,booking_id,equipment_id,
+        borrow_type,operator_id,notes,
+        created_at
+    </sql>
+</mapper>
